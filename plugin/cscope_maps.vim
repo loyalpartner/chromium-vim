@@ -119,6 +119,7 @@ if has("cscope")
     nmap <C-@>f :scs find f <C-R>=expand("<cfile>")<CR><CR>	
     nmap <C-@>i :scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>	
     nmap <C-@>d :scs find d <C-R>=expand("<cword>")<CR><CR>	
+    nmap <C-@>h :cs help<CR>
 
 
     " Hitting CTRL-space *twice* before the search type does a vertical 
